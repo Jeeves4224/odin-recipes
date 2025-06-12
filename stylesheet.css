@@ -1,8 +1,19 @@
-h1 {
-	align-content: center;
-	margin:auto;
-	
+body {
+	background-color: #fbf1e3;
+	padding-left: 2px;
+	padding-top: 2px;
+	font-family:monospace;
 }
+
+h1 {
+	float:none;
+	margin-bottom:5px;
+	margin-top:0px;
+	margin-left:40%;
+	font-size:50px;
+
+}
+
 h2 {
 	float:left;
 	margin:0px;
@@ -10,18 +21,24 @@ h2 {
 
 img {
 	float:left;
+	box-shadow: 5px 5px 10px;
+	outline: 1px solid black;
 }
 
 .recipecard {
 	display: flex;
 	flex: 1;
+	margin-top:0px;
 	margin-bottom:0px;
 	flex-direction: row;
-	padding-bottom:100px;
+	padding-top:0px;
+	padding-bottom:99px;
 	width:1000px;
 	height:201px;
 	position:relative;
-	outline:solid black 1px;
+	outline:1px solid black;	
+	background-color:antiquewhite;
+  box-shadow: 5px 5px 10px;
 }
 
 
@@ -50,6 +67,7 @@ img {
 	width: 110px;
 	align-content: center;
 	padding-left: 100px;
+	margin-top:5px;
 	margin-bottom: 20px;
 	font-size: 30px;
 	
@@ -60,9 +78,9 @@ img {
 	align-self: center;
 	margin-top:45px;
 	margin-right:10px;
-	padding-top:40px;
+	padding-top:0px;
 	padding-right:15px;
-	padding-bottom: 10px
+	padding-bottom: 10px;
 	height:100px;
 	width:200px;
 	float:left;
@@ -75,7 +93,7 @@ img {
 	margin-top:45px;
 	margin-right:10px;
 	position:absolute;
-	padding-top:40px;
+	padding-top:0px;
 	padding-right:15px;
 	height:100px;
 	width:250px;
@@ -87,6 +105,17 @@ img {
 .recipecard li {
 	padding-left:0px;
 	margin-left:0px;
-	margin-right:50px;
+	margin-right:5px;
 	font-size: 20px;
+}
+
+.pagebody {
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-bottom:5px;
+	outline:solid black 1px;
+	background-color: antiquewhite;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 5px 5px 10px; 
 }
